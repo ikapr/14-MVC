@@ -16,9 +16,9 @@ module.exports = sequelize;
 // config.json
 {
   "development"; {
-    "username"; process.env.DB_USER,
-    "password"; process.env.DB_PASSWORD,
-    "database"; process.env.DB_NAME,
+    "username"; "root",
+    "password"; "ogdnamie20",
+    "database"; "your_database_name",
     "host"; "localhost",
     "dialect"; "mysql",
     "port"; 3306
