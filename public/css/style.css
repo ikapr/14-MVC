@@ -1,0 +1,80 @@
+:root {
+  --primary: #fafafa;
+  --secondary: #f0f0f0;
+  --tertiary: #c1c1c1;
+  --light-dark: #999999;
+  --dark: #333333;
+  --border-radius: 0.5rem;
+}
+
+body {
+  background-color: var(--primary);
+  color: var(--dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--dark);
+}
+
+a {
+  color: #3498db; /*blue color */
+}
+
+.navbar {
+  background-color: var(--dark);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.btn {
+  background-color: #3498db; /*blue color */
+  color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #2980b9; /* Slightly darker blue on hover */
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: var(--border-radius);
+}
+
+.card-header {
+  background-color: #3498db; /*blue color */
+  color: #ffffff;
+}
+
+.list-item {
+  background-color: #f0f0f0;
+  color: var(--dark);
+}
+
+.list-item:hover {
+  background-color: #e0e0e0; /* Slightly darker grey on hover */
+}
+
+.footer a {
+  background-color: var(--dark);
+  color: var(--primary);
+}
+
+/*styling */
+.hero {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: var(--border-radius);
+}
+
+.app-title {
+  background-color: #ffffff;
+  color: var(--dark);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: var(--border-radius);
+}
+
+.list-group {
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  border-radius: var(--border-radius);
+}
